@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(4, 4, 51);
+    color: white;
+}
+
+.name {
+  font-size: 54px;
+  margin: 0 15px;
+}
+.center {
+    text-align: center;
+}
+.main_point {
+    font-size: 32px;
+    color: green;
+    font-style: oblique;
+    margin: 0 0;
+}
+.space_right {
+    margin-right: 24px;
+    color: red;
+}
