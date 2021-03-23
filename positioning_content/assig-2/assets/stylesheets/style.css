@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom styling */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	line-height: 1.5;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+/* clearfix */
+.clearfix::before , .clearfix::after {
+	content: "";
+	display: table;
+}
+.clearfix::after {
+	clear: both;
+}
+/* container */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+
+.header {
+	background-color: #5385c1;
+	height: 74px;
+	line-height:74px;
+	padding-top: 30px;
+	color: white;
+	font-size: 15px;
+}
+.logo {
+	float: left;
+	font-size: 25px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.nav {
+	float: right;
+}
+.nav a{
+	color: white;
+	text-decoration: none;
+	text-transform: capitalize;
+	padding: 10px;
+}
+.title{
+	background-color:#5385c1;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	padding-bottom: 80px;
+}
+.title h2, .section-title h2{
+	font-size: 30px;
+	padding: 10px;
+}
+.title p, .section-title p {
+	font-size: 15px;
+}
+.article {
+}
+.art {
+	float: left;
+	width: 28%;
+	margin: 2%;
+	/* padding: 2%; */
+	padding: 80px 0;
+}
+.art a, .article-2 a{
+	color: #5385c1;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 10px 0;
+}
+.art p, .article-2 p{
+	padding: 10px 0;
+}
+.button {
+	background-color: #5385c1;
+}
+.button a {
+	color: white;
+}
+.section-title{
+	color: white;
+	text-align: center;
+	padding: 20px; 
+}
+.section {
+	background-color: #5385c1;
+	padding-bottom:100px;
+}
+.section-title {
+	text-align: center;
+}
+.profile {
+	text-align: center;
+	float: left;
+	width: 22%;
+	margin: 1%;
+	border: 1px solid rgba(255, 255, 255, 0.082);
+}
+.profile img {
+	width: 78px;
+	height: 78px;
+	border-radius: 50%;
+}
+.article-2 {
+	padding: 30px 0;
+}
+.article-2-1 ,.article-2-2{
+	padding: 2%;
+}
+.article-2-1 {
+	float: left;
+	width: 40%;
+}
+.article-2-2 {
+	float: right;
+	width: 40%;
+}
+.article-2-title {
+	text-align: center;
+}
+.article-2-title h2 {
+	font-size: 25px;
+	color: #5385c1;
+	/* text-align: center; */
+}
+.article-2 img {
+	width: 350px;
+	height: 200px;
+	padding: 10px 0;
+}
+.footer {
+	/* background-color:#5385c1; */
+	/* border-top: 1px solid rgba(24, 23, 23, 0.178); */
+}
+hr {
+	border: 1px solid rgba(24, 23, 23, 0.096);
+}
+.copyright {
+	float: left;
+}
+.sns {
+	float: right;
+	/* padding: 10px; */
+}
