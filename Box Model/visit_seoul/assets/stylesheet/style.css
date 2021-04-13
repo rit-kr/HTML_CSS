@@ -71,9 +71,6 @@ table {
 .hr {
     border-top: 1px solid rgba(0, 0, 0, 0.010);
 	margin: 20px auto;
-    /* margin: 20px 0; */
-    /* border-top: 1px solid rgba(0, 0, 0, 0.010) */
-    /* border-top: 1px solid #2d3040; */
 }
 p {
     line-height: 25px;
