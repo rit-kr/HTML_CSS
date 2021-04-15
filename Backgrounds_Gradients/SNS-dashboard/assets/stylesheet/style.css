@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style */
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+    background-color:#1d2029;
+
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 72px;
+}
+.flex-space-btw {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flex-center {
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+    align-items: center;
+}
+.flex {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.fb-icon, .twiter-icon{
+    color:#1889e6 ;
+}
+.insta-icon{
+    background: -webkit-linear-gradient(#5a51c5,#f14e44,#f6c44f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.youtube-icon{
+    color: rgba(255, 0, 0, 0.452);
+}
+/* header */
+.header {
+    background-color:#20222f ;
+    color: rgba(255, 255, 255, 0.603);
+    text-transform: capitalize;
+    padding-top: 24px;
+    padding-bottom: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.sns-title{
+    color: white;
+    font-size: 32px;
+}
+.mode{
+    width: 42px;
+    height: 20px;
+    border-radius:24px;
+    background: linear-gradient(to right, #3e9bd0, #3fc69c);
+
+    /* flex */
+    display: flex;
+    align-items: center;
+}
+.switch {
+    background-color: black;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.dark-mode p {
+    padding-right: 10px;
+}
+.main{
+    padding-top: 120px;
+    position: relative;
+}
+/* first section */
+.section-1{
+    margin: 50px 0;
+}
+.big-box{
+    width: 20%;
+    height: auto;
+    background: #252b43;
+    color: rgba(255, 255, 255, 0.555);
+    padding:10px 0 ;
+    border-radius: 6px;
+}
+.blue-border{
+    border-top: 2px solid #188ef5;
+}
+.insta-border{
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, #5a51c5,#f14e44,#f6c44f) 1;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px
+
+}
+.red-border{
+    border-top: 2px solid #7b112c;
+}
+.follower-count {
+    margin: 12px 0;
+}
+.count{
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 0.8;
+    color: white;
+}
+.follower{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.count-different {
+    text-transform:capitalize;
+    color:green;
+}
+.count-different-down {
+    color: #7b112c;
+}
+
+/* section-2 */
+.section-2{
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.section2-title{
+    font-size: 36px;
+    color: white;
+    font-weight: 900;
+    padding-bottom: 25px;
+}
+.small-box{
+    width: 22%;
+    height: auto;
+    background: #252b43;
+    color: rgba(255, 255, 255, 0.438);
+    padding:25px 0;
+}
+.section2-count{
+    padding-top: 20px;
+    color: white;
+}
+.second-block {
+    margin-top: 40px;
+}
