@@ -1,0 +1,134 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+/* custom style */
+*,
+*::before
+*::after {
+    box-sizing: border-box;
+}
+body {
+	font-family: 'Karla', sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+    /* background-color: #d4cea7; */
+}
+.container {
+    max-width: 1400px;
+	width: 100%;
+    margin: 0 auto;
+    padding: 0 86px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.justify-start{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header{
+    background-color:#f96115;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+.nav li{
+    padding: 20px 50px 20px 0;
+}
+.nav a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.836);
+}
+/* main */
+.main{
+    background-color: #d4cea7;
+}
+.box{
+    background-color:#005979;
+    color: #d4cea7;
+    text-transform: capitalize;
+    width: 28%;
+    height: 380px;
+    line-height: 1.9;
+    font-weight: 700;
+    margin: 10px 0;
+    padding-left: 30px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.479);
+}
+.first-list li{
+    list-style-type: decimal;
+}
+.second-box ul{
+    list-style-type: disc;
+}
+.menu ol{
+    list-style-type: decimal;
+    padding-left: 35px;
+}
+.menu1 ul{
+    list-style-type: square;
+    padding-left: 45px;
+}
+.third-box li{
+    list-style-image: url(../media/tick.png);
+    line-height: 2.4;
+}
+.details dt {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 10px 0;
+    font-family: 'Roboto Mono', monospace;
+}
+section2 {
+    padding-bottom: 10px;
+}
+.details dd{
+    color: #68644f;
+}
+.footer{
+    background-color: black;
+    color: white;
+    padding: 5px 0;
+}
