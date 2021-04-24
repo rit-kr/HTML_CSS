@@ -1,0 +1,137 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style */
+
+*,
+*::before
+*::after {
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+	background: linear-gradient(rgba(243, 17, 17, 0.541) ,rgba(243, 17, 17, 0.541)),url(../media/bg-intro-desktop.png),50%.50%,no-repeat;
+	background: cover;
+	height:100vh;
+	color: white;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 16%;
+	height:100%;
+}
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-self: center;
+}
+.column{
+	display: flex;
+	flex-flow: column;
+}
+.article{
+	flex: 0 1 40%;
+}
+.article h1{
+	font-size: 42px;
+	font-weight: 900;
+}
+.article p{
+	color: rgba(255, 255, 255, 0.89);
+}
+.signup_form{
+	width: 50%;
+}
+.signup_form h2{
+	text-align: center;
+	background-color: #5d54a3;
+	padding: 12px 32px;
+	border-radius: 8px;
+	margin-bottom: 20px;
+	box-shadow: 0 10px 5px rgba(0, 0, 0, 0.432);
+}
+.bold{
+	font-weight: 700;
+}
+.form-container{
+	background-color: #ffff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 10px 5px rgba(0, 0, 0, 0.432);
+}
+.form input{
+	margin: 10px 0;
+	padding:20px;
+	border-radius: 6px;
+	border: 1px solid rgba(0, 0, 0, 0.089);
+}
+.form ::placeholder{
+	font-weight: 700;
+}
+.btn{
+	color: rgba(255, 255, 255, 0.808);
+	text-transform: uppercase;
+	font-size: 18px;
+	text-align: center;
+	background-color: #37cc8a;
+	width: 100%;
+	padding: 16px 32px;
+	border-radius: 6px;
+	margin-bottom: 20px;
+	border: none;
+	box-shadow: 0 10px 5px rgba(0, 0, 0, 0.432);	
+}
+.term{
+	display: block;
+	text-align: center;
+	font-size: 10px;
+	color: rgba(0, 0, 0, 0.671);
+}
+.tomato	{
+	color: tomato;
+}
+
