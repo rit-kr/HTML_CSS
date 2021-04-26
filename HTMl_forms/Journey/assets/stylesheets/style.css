@@ -1,0 +1,387 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* custom style */
+
+*,
+*::before
+*::after {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+    line-height: 1.7;
+    font-size: 16px;
+}
+h1{
+	font-size: 42px;
+	font-weight: 900;
+	color: white;
+	text-transform: uppercase;
+}
+h2{
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 500;
+}
+h3{
+	font-size: 24px;
+	font-weight: 700;
+}
+h4{
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+:root{
+	--primary:#69c6ba;
+	--secondary:#c66995;
+	--bc:#e6e6e6;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+.header-container{
+	max-width: 1400px;
+    margin: 0 350px;
+    padding: 0 300px;
+}
+.main-form-container{
+	max-width: 1400px;
+    margin: 0 200px;
+    padding: 0 10px;
+}
+.flex {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+}
+.column{
+	display: flex;
+	flex-flow: column;
+}
+.justify-between{
+	justify-content: space-between;
+}
+.justify-start{
+	justify-content: flex-start;
+}
+.justify-evenly{
+	justify-content: space-evenly;
+}
+.align-start{
+	align-items: flex-start;
+}
+.align-center{
+	align-items: center;
+}
+.align-spece{
+	align-items: stretch;
+}
+.gap{
+	gap: 20px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.down i{
+	color: white;
+}
+.btn{
+	text-transform: uppercase;
+	border: none;
+	padding: 10px 20px;
+}
+.blue-btn{
+	background-color: var(--primary);
+}
+.blue-btn a{
+	color: #fff;
+}
+.white-btn a{
+	color:var(--primary);
+}
+.purple-white-btn a{
+	color: var(--secondary);
+}
+/* header */
+.header{
+	font-weight: 800;
+	padding: 50px 0;
+
+}
+.logo-title{
+	font-size:32px;
+}
+.active{
+	color: var(--primary);
+}
+.nav{
+	flex: 0 1 55%;
+}
+.main{
+	background-color:var(--bc);
+}
+.hero{
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../media/banner.jpg),50%,50%,no-repeat;
+	background: cover;
+	height: 61vh;
+	padding: 70px 0;
+}
+.hero-main{
+	color: white;
+	text-align: center;
+}
+.hero-main p{
+	color: var(--bc);
+	font-size: 24px;
+}
+.down{
+	width: 58px;
+	height:58px;
+	border-radius: 50%;
+	background-color:var(--primary)
+}
+.fieldset{
+	background-color: #ffff;
+	padding:20px 10px;
+}
+.form-container{
+	height: 100%;
+}
+.fieldset lable{
+	font-weight: 700;
+}
+.fieldset input{
+	padding:10px  5px;
+	outline: none;
+	border-color: rgba(255, 255, 255, 0.027);
+}
+.form-col1, .form-col2{
+	width: 45%;
+}
+.adult-number, .child-number{
+	width: 25%;
+}
+.rooms{
+	width: 40%;
+}
+.button{
+	background-color:var(--primary);
+	width: 100%;
+	border: none;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 10px;
+}
+.button a{
+	color: #fff;
+}
+.priority-container{
+	background-color: #020000;
+}
+.priority {
+	text-align: center;
+	padding: 40px 0;
+}
+.priority p{
+	padding: 20px 0;
+}
+.strong{
+	font-weight: 900;
+}
+/* visited selection styling */
+
+.visited-place-section{
+	background-color: #ffff;
+	color: #fff;
+}
+.visited-img{
+	flex: 0 1 50%;
+	/* width: 50%; */
+}
+.visited-place-with-arrow{
+	flex: o 1 50%;
+	position: relative;
+	right: 10%;
+}
+.visited-place-box{
+	background-color: var(--primary);
+	padding: 40px;
+}
+.visited-place-with-arrow2{
+	position: relative;
+	left: 10%;
+}
+.visited-place-box2{
+	background-color:var(--secondary);
+}
+.visited-place-box p{
+	padding: 10px 0;
+}
+.arrow{
+	padding: 10px 15px;
+	margin: 0 2px;
+	background-color: rgba(0, 0, 0, 0.295);
+}
+/* continent styling */
+.continent-section{
+	background-color:var(--primary);
+	text-transform: uppercase;
+}
+.padding-contenent{
+	padding: 0 20px;
+}
+.continent-section img{
+	width: 120px;
+	height: 120px;
+}
+.continent-section span{
+	text-align: center;
+	/* justify-content: center; */
+}
+.continent-box{
+	background-color:var(--primary);
+	padding:30px 5px;
+	height: 100%;
+}
+.asia-box{
+	padding:30px 5px;
+	height: 100%;
+	background-color:var(--secondary);
+}
+/* hotel list section */
+.hotel-list-section{
+	background-color: #fff;
+}
+.hotel-list-container{
+	padding: 40px 0;
+}
+.hotel-list{
+	margin: 30px 0;
+	border: 1px solid rgba(0, 0, 0, 0.082);
+}
+.location{
+	color: var(--secondary);
+	font-size: 12px;
+	font-weight: 600;
+}
+.hotel-details{
+	padding: 0 20px;
+}
+.hotel-details p{
+	padding-top: 15px;
+	color: rgba(0, 0, 0, 0.473);
+}
+.pricing-box{
+	flex: 0 1 40%;
+	color: #ffff;
+	background-color:var(--primary);
+}
+.pricing{
+	text-align: center;
+}
+.pricing span{
+	font-size: 24px;
+	font-weight:800;
+}
+.pricing a{
+	color: #ffff;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 10px;
+}
+.hotel-list-btn{
+	text-align: center;
+}
+/* map section */
+.map-section{
+	/* background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://goo.gl/maps/Ntc7WGecHon7EKcP7),50%,50%,no-repeat; */
+	/* background: cover; */
+}
+.map-fieldset{
+	background-color: #fff;
+	width: 40%;
+	padding: 30px;
+	position:relative;
+	top: 0;
+	right: 0;
+}
+.map-section iframe{
+	position: absolute;
+}
+.map-fieldset input{
+	background-color:#f5f5f5;
+	height: 30px;
+	width: 99%;
+	margin-bottom: 20px;
+	outline: none;
+	border: none;
+	
+}
+.map-fieldset ::placeholder{
+	padding-left: 10px;
+}
+.name-input input{
+	flex: 0 1 47%;
+}
+.map-fieldset textarea{
+	background-color:#f5f5f5;
+	width: 100%;
+	height: 200px;
+	border: none;
+	padding-top: 10px;
+}	
+.map-btn{
+	width: 100%;
+}
+.footer{
+	background-color:var(--primary);
+	color: white;
+	padding: 30px 0;
+	font-size: 12px;
+	text-align: center;
+}
