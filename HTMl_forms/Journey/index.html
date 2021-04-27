@@ -37,12 +37,12 @@
             </div>
             <fieldset class="fieldset main-form-container">
                 <div class="flex form-container">
-                    <div class="column gap form-col1">
+                    <div class="column  form-col1">
                         <form class=" column Destination" action="">
                             <label for="">Choose your Destination</label>
                             <input type="text" placeholder="Type your Destination">
                         </form>
-                        <form class="flex" action="">
+                        <form class="flex margin-top" action="">
                             <div class="column checkin">
                                 <label for="">Check In Date</label>
                                 <input type="date" placeholder="check in Date">
@@ -53,7 +53,7 @@
                             </div>
                         </form>
                     </div>
-                    <div class="cloumn gap form-col2">
+                    <div class="cloumn  form-col2">
                         <form class="room-container flex" action="">
                             <div class="column rooms">
                                 <label for="">How many rooms?</label>
@@ -68,15 +68,15 @@
                                 <input type="number" min="0" placeholder="0">   
                             </div>
                         </form>
-                        <button class="button">
+                        <button class="button margin-top">
                             <a href="#">check availability</a>
                         </button>
                     </div>
                 </div>
             </fieldset>
         </section>
-        <section class="priority-contaner main-form-container">
-            <div class="priority">
+        <section class="priority-contaner container">
+            <div class="priority main-form-container">
                 <h2>
                     your <span class="strong">Journey</span>  is our priority
                 </h2>
@@ -89,7 +89,7 @@
             </div>
         </section>
         <section class="visited-place-section container">
-            <div class="flex">
+            <div class="flex ">
                 <div class="visited-img">
                     <img src="assets/media/tm-img-01.jpg" alt="img1">
                 </div>
@@ -287,12 +287,15 @@
                     </div>
                 </div>
             </div>
-            <button class="btn blue-btn hotel-list-btn">
-                <a href="#">show more places</a>
-            </button>
+            <div class="hotel-list-btn">
+                <button class="btn blue-btn">
+                    <a href="#">show more places</a>
+                </button>
+            </div>
         </section>
         <section class="map-section container">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3161.1771452406124!2d127.0571888!3d37.5979897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb007941e937%3A0x83b7226e1887fd2!2sHankuk%20University%20of%20Foreign%20Studies%20International%20Building!5e0!3m2!1sen!2sin!4v1619472011764!5m2!1sen!2sin" width="76.5%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3161.1771452406124!2d127.0571888!3d37.5979897!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb007941e937%3A0x83b7226e1887fd2!2sHankuk%20University%20of%20Foreign%20Studies%20International%20Building!5e0!3m2!1sen!2sin!4v1619472011764!5m2!1sen!2sin" width="100%" height="550" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="overlay"></div>
             <fieldset class="map-fieldset">
                 <form class="name-input flex" action="">
                     <input type="text" placeholder="Name">
