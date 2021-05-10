@@ -16,15 +16,17 @@
             <h1 class="brand" id="top">
                 <a href="index.html">Flexor</a>
             </h1>
+            <label class="bars" for="toggle"><i class="fas fa-bars"></i></label>
+            <input id="toggle" type="checkbox">
             <nav class="nav-bar">
-                <ul class=" nav-menu flex justify-between align-center">
-                    <li class="nav-list active-nav"><a href="#">Home</a></li>
-                    <li class="nav-list"><a class="active-hover"  href="#">About</a></li>
-                    <li class="nav-list"><a class="active-hover" href="#">Services</a></li>
-                    <li class="nav-list"><a class="active-hover" href="#">Portfolio</a></li>
-                    <li class="nav-list"><a class="active-hover" href="#">Team</a></li>
-                    <li class="nav-list"><a class="active-hover" href="#">Pricing</a></li>
-                    <li class="nav-list"><a class="active-hover" href="#">Blog</a></li>
+                <ul class=" nav-menu flex justify-between align-center sm-column">
+                    <li class="nav-list active-nav"><a href="index.html">Home</a></li>
+                    <li class="nav-list"><a class="active-hover"  href="#about">About</a></li>
+                    <li class="nav-list"><a class="active-hover" href="#services">Services</a></li>
+                    <li class="nav-list"><a class="active-hover" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-list"><a class="active-hover" href="#team">Team</a></li>
+                    <li class="nav-list"><a class="active-hover" href="#pricing">Pricing</a></li>
+                    <li class="nav-list"><a class="active-hover" href="blog.html">Blog</a></li>
                     <li class="nav-list dropdown">
                         <a class="active-hover" href="#">Dropdown
                             <i class="fa fa-caret-down"></i>
@@ -50,7 +52,7 @@
                                 <li><a class="active-hover" href="#">Drop down-6</a></li>
                             </ul>
                     </li>
-                    <li class="nav-list"><a class="active-hover" href="#">Contact</a></li>
+                    <li class="nav-list"><a class="active-hover" href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -80,7 +82,7 @@
         </section>
         <section class="website-section">
             <div class="container">
-                <div class="website-box-container flex justify-between align-center">
+                <div class="website-box-container flex justify-between align-center sm-column">
                     <div class="website-bg-box flex-25">
                         <h3>
                             Why choose Flexor for your company website?
@@ -128,9 +130,9 @@
                 </div>
             </div>
         </section>
-        <section class="about-section padding">
-            <div class="container flex justify-between">
-                <div class="about-section-img flex-48">
+        <section class="about-section padding" id="about">
+            <div class="container flex justify-between sm-column">
+                <div class="about-section-img flex-48 sm-full-width">
                     <img src="assets/media/about-img.jpg" alt="">
                 </div>
                 <article class="about-article flex-48">
@@ -206,7 +208,7 @@
                 </div>
             </div>
         </section>
-        <section class="service-section padding">
+        <section class="service-section padding" id="services">
             <div class="container">
                 <div class="section-header">
                     <h3>
@@ -216,7 +218,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam numquam incidunt suscipit odio perspiciatis sint at aliquid deleniti quas.Facere cupiditate repellat architecto, voluptas labore iure dicta, deserunt sapiente voluptatem? Alias ut ipsam odit nam beatae itaque officiis soluta facilis quo.
                     </p>
                 </div>
-                <div class="service-col1 flex justify-between align-center">
+                <div class="service-col1 flex wrap justify-between align-center">
                     <div class="service-box flex-30">
                         <div class="service-box-icon center">
                             <a href="#"><i class="fas fa-desktop"></i></a>
@@ -250,8 +252,6 @@
                             Dolorem, aperiam est? Officia provident id suscipit, nostrum magnam molestias unde. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                         </p>
                     </div>
-                </div>
-                <div class="service-col1 flex justify-between align-center">
                     <div class="service-box flex-30">
                         <div class="service-box-icon center">
                             <a href="#"><i class="far fa-image"></i></a>
@@ -290,8 +290,8 @@
         </section>
         <section class="article-section padding">
             <div class="container">
-                <div class="article-col1 flex justify-between align-center">
-                    <div class="article-section-contaier-1 flex-48">
+                <div class="article-col1 flex justify-between align-center wrap">
+                    <div class="article-section-contaier-1 flex-48 sm-full-width">
                         <article class="article-box">
                             <h3>
                                 Our Mission
@@ -302,7 +302,7 @@
                             <a href="#"><i class="fas fa-arrow-right"></i><span class="article-read-more">READ MORE</span></a>
                         </article>
                     </div>
-                    <div class="article-section-contaier-2 flex-48">
+                    <div class="article-section-contaier-2 flex-48 sm-full-width">
                         <article class="article-box">
                             <h3>
                                 Our plan
@@ -314,8 +314,8 @@
                         </article>
                     </div>
                 </div>
-                <div class="article-col2 flex justify-between align-center">
-                    <div class="article-section-contaier-3 flex-48">
+                <div class="article-col2 flex justify-between align-center wrap">
+                    <div class="article-section-contaier-3 flex-48 sm-full-width">
                         <article class="article-box">
                             <h3>
                                 Our vision
@@ -326,7 +326,7 @@
                             <a href="#"><i class="fas fa-arrow-right"></i><span class="article-read-more">READ MORE</span></a>
                         </article>
                     </div>
-                    <div class="article-section-contaier-4 flex-48">
+                    <div class="article-section-contaier-4 flex-48 sm-full-width">
                         <article class="article-box">
                             <h3>
                                 Our Care
@@ -394,7 +394,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio-section padding">
+        <section class="portfolio-section padding" id="portfolio">
             <div class="container">
                 <div class="section-header">
                     <h3>
@@ -412,6 +412,9 @@
                 </div>
                 <div class="flex wrap justify-between">
                     <div class="portfolio-img-container card-list-1 flex-30">
+                        <div class="portfolio-img">
+                            <img src="assets/media/portfolio/portfolio-1.jpg" alt="portfolio-1">
+                        </div>
                         <div class="card-list">
                             <div class="add-card flex justify-between align-center">
                                 <span>Card 1</span>
@@ -424,6 +427,9 @@
                         </div>
                     </div>
                     <div class="portfolio-img-container card-list-2 flex-30">
+                        <div class="portfolio-img">
+                            <img src="assets/media/portfolio/portfolio-2.jpg" alt="portfolio-2">
+                        </div>
                         <div class="card-list">
                             <div class="add-card flex justify-between align-center">
                                 <span>Card 2</span>
@@ -436,6 +442,9 @@
                         </div>
                     </div>
                     <div class="portfolio-img-container card-list-3 flex-30">
+                        <div class="portfolio-img">
+                            <img src="assets/media/portfolio/portfolio-3.jpg" alt="portfolio-3">
+                        </div>
                         <div class="card-list">
                             <div class="add-card flex justify-between align-center">
                                 <span>Card 3</span>
@@ -448,6 +457,9 @@
                         </div>
                     </div>
                     <div class="portfolio-img-container card-list-4 flex-30">
+                        <div class="portfolio-img">
+                            <img src="assets/media/portfolio/portfolio-4.jpg" alt="portfolio-4">
+                        </div>
                         <div class="card-list">
                             <div class="add-card flex justify-between align-center">
                                 <span>Card 4</span>
@@ -460,6 +472,9 @@
                         </div>
                     </div>
                     <div class="portfolio-img-container card-list-5 flex-30">
+                        <div class="portfolio-img">
+                            <img src="assets/media/portfolio/portfolio-5.jpg" alt="portfolio-5">
+                        </div>
                         <div class="card-list">
                             <div class="add-card flex justify-between align-center">
                                 <span>Card 5</span>
@@ -472,6 +487,9 @@
                         </div>
                     </div>
                     <div class="portfolio-img-container card-list-6 flex-30">
+                        <div class="portfolio-img">
+                            <img src="assets/media/portfolio/portfolio-6.jpg" alt="portfolio-6">
+                        </div>
                         <div class="card-list">
                             <div class="add-card flex justify-between align-center">
                                 <span>Card 6</span>
@@ -484,6 +502,9 @@
                         </div>
                     </div>
                     <div class="portfolio-img-container card-list-7 flex-30">
+                        <div class="portfolio-img">
+                            <img src="assets/media/portfolio/portfolio-7.jpg" alt="portfolio-7">
+                        </div>
                         <div class="card-list">
                             <div class="add-card flex justify-between align-center">
                                 <span>Card 7</span>
@@ -496,6 +517,9 @@
                         </div>
                     </div>
                     <div class="portfolio-img-container card-list-8 flex-30">
+                        <div class="portfolio-img">
+                            <img src="assets/media/portfolio/portfolio-8.jpg" alt="portfolio-8">
+                        </div>
                         <div class="card-list">
                             <div class="add-card flex justify-between align-center">
                                 <span>Card 8</span>
@@ -508,6 +532,9 @@
                         </div>
                     </div>
                     <div class="portfolio-img-container card-list-9 flex-30">
+                        <div class="portfolio-img">
+                            <img src="assets/media/portfolio/portfolio-9.jpg" alt="portfolio-9">
+                        </div>
                         <div class="card-list">
                             <div class="add-card flex justify-between align-center">
                                 <span>Card 9</span>
@@ -519,10 +546,11 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
-        <section class="team-section padding">
+        <section class="team-section padding" id="team">
             <div class="container">
                 <div class="section-header">
                     <h3>
@@ -532,7 +560,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam numquam incidunt suscipit odio perspiciatis sint at aliquid deleniti quas.Facere cupiditate repellat architecto, voluptas labore iure dicta, deserunt sapiente voluptatem? Alias ut ipsam odit nam beatae itaque officiis soluta facilis quo.
                     </p>
                 </div>
-                <div class="flex justify-between align-center">
+                <div class="flex justify-between align-center wrap">
                     <div class="team-member flex-20">
                         <div class="team-img-container">
                             <img src="assets/media/team/team-1.jpg" alt="team-1">
@@ -612,7 +640,7 @@
                 </div>
             </div>
         </section>
-        <section class="pricing-section padding">
+        <section class="pricing-section padding" id="pricing">
             <div class="container">
                 <div class="section-header">
                     <h3>
@@ -622,7 +650,7 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam numquam incidunt suscipit odio perspiciatis sint at aliquid deleniti quas.Facere cupiditate repellat architecto, voluptas labore iure dicta, deserunt sapiente voluptatem? Alias ut ipsam odit nam beatae itaque officiis soluta facilis quo.
                     </p>
                 </div>
-                <div class="pricing-list flex justify-between align-center">
+                <div class="pricing-list flex justify-between align-center wrap">
                     <div class="pricing-list-container flex-20">
                         <h3>
                             Free
@@ -668,7 +696,7 @@
                             <a href="#">Buy Now</a>
                         </div>
                     </div>
-                    <div class="pricing-list-container flex-20">
+                    <div class="pricing-list-container advanced-container flex-20">
                         <div class="advanced-pricing">Advanced</div>
                         <h3>
                             Ultimate
@@ -697,10 +725,10 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam numquam incidunt suscipit odio perspiciatis sint at aliquid deleniti quas.Facere cupiditate repellat architecto, voluptas labore iure dicta, deserunt sapiente voluptatem? Alias ut ipsam odit nam beatae itaque officiis soluta facilis quo.
                     </p>
                 </div>
-                <div class="faq-container">
+                <div class="faq-container flex column">
                     <div class="faq-content">
                         <div class="active-faq flex justify-between align-center">
-                            <div class=" ">
+                            <div>
                                 <i class="far fa-question-circle"></i>
                                 <span>Lorem ipsum dolor sit, amet consectetur?</span>
                             </div>
@@ -739,7 +767,7 @@
                 </div>
             </div>
         </section>
-        <section class="contact-section padding">
+        <section class="contact-section padding" id="contact">
             <div class="container">
                 <div class="section-header">
                     <h3>
@@ -749,13 +777,16 @@
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore ipsam numquam incidunt suscipit odio perspiciatis sint at aliquid deleniti quas.Facere cupiditate repellat architecto, voluptas labore iure dicta, deserunt sapiente voluptatem? Alias ut ipsam odit nam beatae itaque officiis soluta facilis quo.
                     </p>
                 </div>
-                <div class="contact-info-container flex justify-between align-center">
-                    <div class="contact-info flex justify-between flex-28">
+                <div class="contact-info-container flex justify-between align-center sm-column">
+                    <div class="contact-info flex justify-between flex-28 ">
                         <div class="contact-logo-container center"><i class="fas fa-map-marker-alt"></i></div>
                         <div class="contact-info-details flex-75">
                             <h3>our Address</h3>
                             <span>
-                                12 Floor, Star Building, New Tila 123456
+                                12 Floor, Star Building,
+                            </span>
+                            <span>
+                                New Tila 123456
                             </span>
                         </div>
                     </div>
@@ -763,24 +794,24 @@
                         <div class="contact-logo-container center"><i class="far fa-envelope"></i></div>
                         <div class="contact-info-details flex-75">
                             <h3>Email Us</h3>
-                            <span>
+                            <p>
                                 contactus@contact.com
-                            </span>
-                            <span>
+                            </p>
+                            <p>
                                 contac@fkwe@fw.com
-                            </span>
+                            </p>
                         </div>
                     </div>
                     <div class="contact-info flex justify-between flex-28">
                         <div class="contact-logo-container center"><i class="fas fa-phone-volume"></i></div>
-                        <div class="contact-info-details flex-75">
+                        <div class="contact-info-details flex-75 flex column">
                             <h3>Call Us</h3>
-                            <span>
-                                12345-67890
-                            </span>
-                            <span>
-                                09876=54321
-                            </span>
+                            <p>
+                                +1 12345 -67890
+                            </p>
+                            <p>
+                                +1 09876-54321
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -802,8 +833,8 @@
     </main>
     <footer class="footer">
         <div class="website-info-footer padding">
-            <div class="container flex justify-between">
-                <div class="company-info">
+            <div class="container flex justify-between wrap">
+                <div class="company-info flex-20">
                     <h3>
                         Flexor
                     </h3>
@@ -817,7 +848,7 @@
                         <li><Span>Email Us- </Span>Info@info.com</li>
                     </ul>
                 </div>
-                <div class="useful-link-footer">
+                <div class="useful-link-footer flex-20">
                     <h3>
                         Useful-link
                     </h3>
@@ -829,7 +860,7 @@
                         <li><i class="fas fa-angle-right"></i>Privacy policy</li>
                     </ul>
                 </div>
-                <div class="useful-link-footer">
+                <div class="useful-link-footer flex-20">
                     <h3>
                         Our Services
                     </h3>
@@ -854,7 +885,7 @@
             </div>
         </div>
         <div class="container copyright-container">
-            <div class="copyright-footer flex justify-between align-center">
+            <div class="copyright-footer flex justify-between align-center sm-column">
                 <div class="flex column">
                     <span>
                         &copy copyright <strong>Flexor</strong>. All Right Reserved
